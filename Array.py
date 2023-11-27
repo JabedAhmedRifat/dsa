@@ -49,6 +49,23 @@ class Array:
     print()
 
 
+  def __str__(self):
+    result = ''
+    for i in range(self.length):
+      result = result + str(self.arr[i]) + ','
+
+    return '[' + result[:-1] + ']'
+
+
+  def print1(self):
+    result = ''
+    for i in range(self.length):
+      result = result + str(self.arr[i]) + ','
+
+    return '[' + result [:-1] + ']'
+
+
+
 
 
 l = Array()
